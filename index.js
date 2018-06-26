@@ -49,3 +49,4 @@ const getIn = (object, path, defaultValue) => {
 /** TEST! */
 getIn(obj, 'a.b.c', 10)
 getIn(obj, 'a.b.c.d', 10)
+getIn(obj, 'a.b.C', 10)
